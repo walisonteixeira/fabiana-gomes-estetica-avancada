@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Maven+Pro&family=Satisfy&display=swap');
+* {
+    color: rgb(125, 0, 125);
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: 'Maven Pro', sans-serif;
+}
+body {
+    background-image:url(../img/background-pink-style.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.cabecalho {
+    text-shadow: 2px 2px 2px rgb(200, 200, 200);
+    
+    text-align: center;
+    padding: 15px;
+    max-width: 80%;
+    margin: auto;
+}
+.menu {
+    box-shadow: 2px 2px 2px rgb(200, 200, 200);
+    background-image: linear-gradient(rgba(250, 0, 200, 0.400), rgba(250, 100, 200, 0.400)) ;
+    text-align: center;
+    height: 30px;
+    padding: 10px;
+}
+a {
+    font-size: 18px;
+    color: rgb(100, 0, 100);
+    padding: 1.5%;
+    text-decoration: none;
+}
+p {
+    margin: 10px 5px 10px 5px;
+    text-align: center;
+    text-indent: 25px;
+}
+h5 {
+    font-size: 100%;
+    
+}
+h4 {
+    padding: 20px;
+    font-size: 150%;
+    font-weight: 200;
+    letter-spacing: 2px;;
+}
+h3 {
+    text-shadow: 2px 2px 2px rgb(200, 200, 200);
+    margin: 10px 5px 10px 5px;
+    font-size: 300%;
+    font-weight: 100;
+    letter-spacing: 2px;
+    font-family: 'Satisfy', cursive;
+}
+.menu2 {
+    text-shadow: 2px 2px 2px rgb(200, 200, 200);
+    box-shadow: 2px 2px 2px rgb(200, 200, 200);
+    background-image: linear-gradient(rgba(250, 0, 200, 0.400), rgba(250, 100, 200, 0.400)) ;
+    text-align: center;
+    height: 50px;
+}
+h2 {
+    font-size: 35px;
+    padding: 5px;;
+}
+h1 {
+    margin: 15px 10px 15px 10px;
+    font-size: 150%;
+    letter-spacing: 8px;
+    font-family: 'Abel', sans-serif;
+}
+.secao1 {
+    box-shadow: 2px 2px 2px rgb(200, 200, 200);
+    background-color: rgb(255, 255, 255, 0.4);
+    border-radius: 50px 0 0 0;
+    padding: 1%;
+    margin: 0 10% 0 10%;
+}
+.secao2 img{
+    box-shadow: 4px 4px 4px rgb(150, 150, 150);
+    width: 20%;
+    border-radius: 50%;
+    margin: 10px 0 0 0;
+}
+
+footer {
+    overflow: auto;
+    box-shadow: 2px 2px 2px rgb(175, 175, 175);
+    background-image: linear-gradient(rgba(250, 0, 200, 0.400), rgba(250, 100, 200, 0.400)) ;
+    text-align: center;
+    height: 30px;
+    padding: 10px;
+}
+.botaoSup {
+    font-size: 25px;
+    box-shadow: 1px 1px 1px rgb(180, 180, 180);
+    background-color: rgba(250, 0, 200, 0.20);
+    padding: 1px 5px;
+    border-radius: 10px;
+    border: solid 1px rgb(255, 255, 255, 0.100);
+}
+.botaoSup:hover {
+    color: rgba(130, 130, 130, 0.5);
+    padding: 1px 5px;
+    background-color: rgb(255, 255, 255, 0.250);
+    border: solid 1px rgba(0, 0, 0, 0.050);
+}
+.botaoInf {
+    font-size: 20px;
+    box-shadow: 1px 1px 1px rgb(175, 175, 175);
+    background-color: rgba(250, 0, 200, 0.400);
+    padding: 5px 20px;
+    border-radius: 10px;
+    border: solid 1px rgb(0, 0, 0, 0.050);
+}
+.botaoInf:hover {
+    color: rgba(130, 130, 130, 0.5);
+    padding: 5px 20px;
+    background-color: rgba(255, 255, 255, 0.2500);
+    border: solid 1px rgba(0, 0, 0, 0.050);
+}
+.botaoEnviar {
+    font-size: 20px;
+    box-shadow: 1px 1px 1px rgb(175, 175, 175);
+    background-color: rgba(250, 0, 200, 0.400);
+    padding: 5px 20px;
+    border-radius: 10px;
+    border: solid 1px rgb(0, 0, 0, 0.050);
+}
+.botaoEnviar:hover {
+    color: rgba(130, 130, 130, 0.5);
+    padding: 5px 20px;
+    background-color: rgba(255, 255, 255, 0.2500);
+    border: solid 1px rgba(0, 0, 0, 0.050);
+}
+.typesproced {
+    display: inline;
+}
+.procedTitle {
+    
+}
+.textDescription {
+    box-shadow: 2px 2px 2px rgb(200, 200, 200);
+    background-color: rgb(255, 255, 255, 0.4);
+    border-radius: 50px 0 0 0;
+    margin: 0 10% 0 10%;
+    text-align: center;
+    width: 80%;
+    display: inline-block;
+}
+.procedList {
+    list-style-type: none;
+    text-align: left;
+    margin: 0 20% 0 20%;
+}
+.botaoCont {
+    padding: 2px 10px;
+    border: solid 1px rgb(255, 255, 255, 0.100);
+}
+.botaoCont:hover {
+    color: rgba(130, 130, 130, 0.5);
+    padding: 4px 11px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255, 0.500);
+}
+.cliente {
+    box-shadow: 2px 2px 2px rgb(175, 175, 175);
+    margin: 1%;
+    width: 40%;
+    border-radius: 50%;
+}
+.secao3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.depoimentos {
+    text-align: center;
+    margin: 2% 5% 5% 5%;
+    font-size: 90%;
+}
+.divDep {
+    overflow: auto;
+    padding: 2%;
+    box-shadow: 2px 2px 2px rgb(200, 200, 200);
+    width: 400px;
+    height: 400px;
+    margin: 0 1% 0 1%;
+    border-radius: 50px 0 0 0;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+.secao4 {
+    box-shadow: 2px 2px 2px rgb(200, 200, 200);
+    background-color: rgb(255, 255, 255, 0.4);
+    border-radius: 50px 0 0 0;
+    padding: 1%;
+    margin: 0 10% 0 10%;
+}
+.descricao {
+    text-align: justify;
+    margin: 0 10% 0 10%;
+}
+.paragWelcome {
+    padding: 1%;
+    margin: 2%;
+    text-align: justify;
+}
+.botaoagend {
+    font-size: 25px;
+    box-shadow: 1px 1px 1px rgb(180, 180, 180);
+    background-color: rgba(250, 0, 200, 0.40);
+    padding: 1px 5px;
+    border-radius: 10px;
+    border: solid 2px rgb(255, 255, 255, 0.100);
+}
+.botaoagend:hover {
+    color: rgba(130, 130, 130, 0.5);
+    padding: 3px 7px;
+    background-color: rgb(255, 255, 255, 0.250);
+    border: solid 1px rgba(0, 0, 0, 0.050);
+}
+.slideshow-container {
+    max-width: 800px;
+    position: relative;
+    margin: auto;
+}
+.mySlides {
+    display: none;
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+}
+.fade {
+    animation-name: fade;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+@keyframes fade {
+    0% {
+    opacity: 0;
+    }
+    25% {
+    opacity: 1;
+    }
+    75% {
+    opacity: 1;
+    }
+    100% {
+    opacity: 0;
+    }
+}
+.secao5 img{
+    box-shadow: 2px 2px 2px rgb(200, 200, 200);
+    width: 198%;
+    border-radius: 50px;
+}
+::-webkit-scrollbar {
+    width: 2px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: rgba(250, 0, 200, 0.30);
+}
+::-webkit-scrollbar-track {
+    background-color: rgb(255, 255, 255, 0.250);
+}
+.whatsapp {
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    line-height: 30px;
+    z-index: 100;
+}
+.whatsapp img{
+    width: 80px;
+}
